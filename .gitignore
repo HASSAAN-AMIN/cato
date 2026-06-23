@@ -1,0 +1,7 @@
+# dustibin lol
+dump/
+
+# build files
+*.exe
+*.out
+*.test

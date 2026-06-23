@@ -1,0 +1,58 @@
+
+
+// sheet.png 
+
+total rows  =  10
+max   cols =  8 
+
+
+
+
+-- row 1
+cols = 4
+Action : idle 1
+
+
+-- row 2
+cols = 4
+Action :  idle 2 ( looking at side)
+ 
+
+-- row 3
+cols = 4
+Action :  cleaning ( idle 3  ) ( must use)
+
+
+-- row 4
+cols = 4
+Action : setting hair( idle 4 )
+
+
+-- row 5
+cols = 8
+Action :  walking normal( walk ) use for slow walks
+
+
+-- row 6
+cols = 8
+Action :  funy run ( use this must ) ( run)
+
+
+-- row 7
+cols = 4
+Action : idle 5 ( cato sleeping)
+
+
+-- row 8
+cols = 6
+Action :  action( touching clicking button)  if lmb then-> this move
+
+
+-- row 9
+cols = 7
+Action :  jump ( only if  right mouse click)
+
+
+-- row 10
+cols = 8
+Action :  scared  dont use idk maybe later 
