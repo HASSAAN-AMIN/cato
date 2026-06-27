@@ -9,6 +9,15 @@ Cato is a tiny desktop cat that lives on your screen and follows your mouse curs
 
 More animations and interactions are planned.
 
+
+```md
+| arch | idk_lol |
+|:-----|:--------|
+| <img src="Screenshots/arch.png" alt="arch" /> | <img src="Screenshots/idk_lol.png" alt="idk_lol" /> |
+| licking | running |
+| <img src="Screenshots/licking.png" alt="licking" /> | <img src="Screenshots/running.png" alt="running" /> |
+```
+
 ## Requirements
 
 * Arch Linux (or another Linux distribution running Hyprland 💀 should work )
