@@ -11,10 +11,10 @@ More animations and interactions are planned.
 
 
 
-| arch | idk_lol |
+| Arch | idk_lol |
 |:-----|:--------|
 | <img src="Screenshots/arch.png" alt="arch" /> | <img src="Screenshots/idk_lol.png" alt="idk_lol" /> |
-| licking | running |
+| Licking | Running |
 | <img src="Screenshots/licking.png" alt="licking" /> | <img src="Screenshots/running.png" alt="running" /> |
 
 
