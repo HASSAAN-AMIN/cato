@@ -155,7 +155,7 @@ func (p *pet) Update() error {
 	////////////////////////////////
 
 	// nimation setting
-	// crnt fps  = 10
+	// crnt fps = 10
 	p.t++
 	if p.t%6 == 0 {
 		if p.state == Run {
@@ -250,7 +250,7 @@ func main() {
 	ebiten.SetWindowSize(sw, sh) // all over screen
 
 	// loading images
-	sImg, _, err := ebitenutil.NewImageFromFile("../assets/sheet.png")
+	sImg, _, err := ebitenutil.NewImageFromFile("assets/sheet.png")
 	if err != nil {
 		panic(err)
 	}

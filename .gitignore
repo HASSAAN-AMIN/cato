@@ -5,3 +5,9 @@ dump/
 *.exe
 *.out
 *.test
+
+cato
+*.exe
+*.out
+*.log
+.DS_Store
