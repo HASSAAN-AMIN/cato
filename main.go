@@ -1,3 +1,8 @@
+/*
+	بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+
+In the name of Allah, the Most Gracious, the Most Merciful.
+*/
 package main
 
 import (
