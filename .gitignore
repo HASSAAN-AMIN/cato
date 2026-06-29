@@ -1,13 +1,18 @@
-# dustibin lol
 dump/
-
-# build files
-*.exe
-*.out
-*.test
-
+bin/
 cato
 *.exe
+*.exe~
 *.out
+*.test
+*.dll
+*.so
+*.dylib
 *.log
+vendor/
+.idea/
+.vscode/
+*.swp
+*.swo
 .DS_Store
+Thumbs.db

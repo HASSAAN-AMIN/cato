@@ -1,13 +1,11 @@
 # Cato
-
->  built for **Arch Linux + Hyprland**.
-Working on Arch with Hyprland combo 
+> works for both  **Linux (Hyprland)** and **Windows**.
 
 
 Cato is a tiny desktop cat that lives on your screen and follows your mouse cursor. It walks, runs, idles with different animations, and stays pinned above all your windows without stealing focus.
 
 
-More animations and interactions are planned.
+considering more animations and interactions .
 
 
 
@@ -20,9 +18,17 @@ More animations and interactions are planned.
 
 ## Requirements
 
-* Arch Linux (or another Linux distribution running Hyprland 💀 should work )
-* Hyprland
-* Go
+### Linux
+- Go
+- Hyprland ( for other DE's future maybe)
+
+### Windows
+- Go
+- Windows 10/11
+
+
+
+
 
 ## Hyprland Configuration
 
@@ -45,14 +51,67 @@ Reload Hyprland after adding the rules.
 hyprctl reload
 ```
 
+
+
+## Windows Configuration
+
+no configs required 
+
+
 ## Running
 
-Clone the repository, then run:
+### Clone the repository
 
-```bash
-go mod tidy
+```
+git clone https://github.com/HASSAAN-AMIN/cato
+cd cato
+```
+
+### Linux
+
+```
+chmod +x run.sh
+./run.sh
+```
+
+or :
+
+```
 go run .
 ```
+
+or  :
+
+```
+go build -o cato 
+./cato
+```
+
+
+### Windows
+
+```
+run.bat
+```
+
+Or:
+
+```
+go run .
+```
+
+
+
+
+
+### Automatic OS selection
+
+
+it uses Go build tags to identify the OS and build according to that
+
+- `linux.go` → Linux (Hyprland)
+- `windows.go` → Windows
+
 
 ## Contribution
 
@@ -61,3 +120,5 @@ Contributions are always welcome!!!!!!!!!!!
 If you'd like to add new animations, behaviors, features, improve the codebase, or fix bugs, feel free to open a pull request.
 
 I'd especially love contributions that make **Cato work on more Linux distributions and desktop environments**, not just the current Arch Linux + Hyprland setup.
+
+also contribuitions for MacOS support
